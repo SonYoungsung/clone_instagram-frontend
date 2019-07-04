@@ -6,4 +6,7 @@ ${reset};
 * {
     box-sizing: border-box;  
 }
+body {
+    background-color:${props => props.theme.bgColor}
+}
 `;
