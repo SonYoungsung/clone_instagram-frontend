@@ -8,5 +8,10 @@ ${reset};
 }
 body {
     background-color:${props => props.theme.bgColor}
+    color:${props => props.theme.balckColor}
+}
+a{
+    color:${props => props.theme.blueColor}
+    text-decoration:none;
 }
 `;
